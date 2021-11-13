@@ -1,0 +1,1 @@
+# CoMaReS is Covid-19 Malaria Recommendation System

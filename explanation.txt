@@ -1,0 +1,10 @@
+The OkapiBM25 (Best Matching) algorithm finds the best-match scores for the symptoms against the diagnosis. 
+It undertakes the weightage of the symptoms, that plays key role diagnosis and detection of the disease, for analysing the relation among them.
+
+
+For further enhancement compact Singlular Value Decomposition (compact SVDs) has been used to obtain the left-singular vectors, right-singular vector and singular value. 
+Then Cosine-Similarity was applied to analyse and find out the score of relevance (scored_weights) of the symptoms with th disease.
+
+
+During prediction sum of scored_weights for the given symptoms of the patient was choosen as the final relevant score for the provided set of symptoms against every diagnosis. 
+The diagnosis, with the highest score was taken as the closest probable while with the lowest score was taken as least probable one.
